@@ -3,6 +3,8 @@ public class Main {
         long[] sales = {50, 70, 256, 400};
         SalesManager salesManager = new SalesManager(sales);
         System.out.println("Максимальная продажа:" + salesManager.max() +
-                ",средний показатель:" + salesManager.aver());
+                ",средний показатель:" + salesManager.aver() +
+                "минимальная продажа:" + salesManager.min());
+
     }
 }
