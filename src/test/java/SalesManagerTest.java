@@ -13,7 +13,7 @@ class SalesManagerTest {
 
     @Test
     void min () {
-        long result = salesManager.max();
+        long result = salesManager.min();
         Assertions.assertEquals(50,result);
     }
 
